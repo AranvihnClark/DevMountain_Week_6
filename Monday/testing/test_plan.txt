@@ -1,0 +1,10 @@
+High Level Tests:
+ - Does “Submit” button work in “Cancel Wanted” page?
+ - Does “Clear” button work in “Enter Wanted” page?
+
+Low Level Tests:
+ - Does "Entry" "Header" only take in 9-19 characters, any allowed?
+ - Does "Modify" "Hair" only take 3-10 characters, alpha only?
+
+Sanity Test:
+ - Does "Navigation" send you to the correct pages?
