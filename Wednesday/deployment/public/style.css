@@ -60,11 +60,12 @@ body {
     overflow-x: hidden;
 }
 
-.text-one {
+.text {
     font-size: 24px;
     font-weight: 600;
     line-height: 50px;
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 h2 {
@@ -82,4 +83,43 @@ h2 {
     min-height: 70px;
     border: 16px solid rgb(119, 0, 255);
     border-radius: 12px;
+}
+
+.pic-two {
+    min-width: 100px;
+    max-width: 700px;
+    width: auto;
+}
+
+.rainbow {
+    background: linear-gradient(90deg, rgba(255,39,39,1) 0%, rgba(243,253,29,1) 18%, rgba(69,252,82,1) 36%, rgb(0, 72, 255) 54%, rgb(98, 0, 255) 72%, rgb(255, 0, 238) 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.pic-three {
+    min-width: 100px;
+    max-width: 700px;
+    width: auto;
+}
+
+#part-two {
+    margin-top: 50px;
+}
+
+.fixed-position {
+    position: relative;
+}
+
+#about {
+    margin-top: 1vh;
+    height: 100px;
+    align-items: end;
+}
+
+.about-text {
+    font-size: 18px;
+    font-weight: 800;
 }
