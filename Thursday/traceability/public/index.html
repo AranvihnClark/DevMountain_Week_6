@@ -13,10 +13,10 @@
     <!-- Navigation Menu -->
     <section id="nav" class="static-position">
         <ul class="flex flex-center">
-            <button class="nav-bar">HOME</button>
-            <button class="nav-bar">IMAGES</button>
-            <button class="nav-bar">BUY NOW!</button>
-            <button class="nav-bar">ABOUT</button>
+            <button id="home-button" class="nav-bar">HOME</button>
+            <button id="images-button" class="nav-bar">IMAGES</button>
+            <button id="buy-button" class="nav-bar">BUY NOW!</button>
+            <button id="about-button" class="nav-bar">ABOUT</button>
         </ul>
     </section>
     
@@ -33,12 +33,22 @@
             <img src="https://images.unsplash.com/photo-1545315003-c5ad6226c272?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80" alt="happy-woman" class="pic-three">
         </div>
     </section>
-    <section id="about" class="flex fixed-position">
+    <section id="about" class="flex relative-position">
         <p class="about-text">
             Please be mindful that the website is not yet finished. None of the navigations currently function!
             <br><br>Create by Aranvihn Clark
             <br><br>Ignore the mess >__<
         </p>
     </section>
+
+    <section id="about-section" class="fixed-position hidden">
+        <p id="about-text">
+            I am a 31-year-old male striving to become a software developer. I am in the middle of this cohort hoping to make my dreams come true. I enjoy playing video games, reading, writing, the occasional drawing, and watching tv/movies. In my spare time, I spend time with my wonderful husband and our two dogs, who like to pretend that they're orphans and always need pets to reaffirm their existence.<br><br>Thank you for coming to visit this site. Now go buy some balloons!
+        </p>
+        <img src="https://images.unsplash.com/photo-1540569014015-19a7be504e3a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80" alt="profile-pic" id="profile-pic" >
+    </section>
+    <button id="close-about" class="hidden"><em class="rainbow">Close</em></button>
+    <script src="../node_modules/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>

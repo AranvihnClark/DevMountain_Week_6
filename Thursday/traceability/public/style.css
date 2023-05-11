@@ -109,7 +109,7 @@ h2 {
     margin-top: 50px;
 }
 
-.fixed-position {
+.relative-position {
     position: relative;
 }
 
@@ -122,4 +122,55 @@ h2 {
 .about-text {
     font-size: 18px;
     font-weight: 800;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#about-section {
+    margin-top: 50px;
+    border: 20px solid rgb(77, 128, 255);
+    border-radius: 5px;
+    background-color: rgba(237, 233, 117, 0.9);
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 80vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: inline-grid;
+    grid-template-columns: 75% 15%;
+    grid-template-rows: 50vh auto;
+}
+
+#close-about {
+    border: 4px solid;
+    border-radius: 12px;
+    grid-column: 1 / 4;
+    height: 50px;
+    font-size: 40px;
+    font-weight: 600;
+    background-color: darkred;
+    position: fixed;
+    top: 5vh;
+    left: 50px;
+}
+
+.fixed-position {
+    position: fixed;
+    top: 5vh;
+    z-index: 10;
+}
+
+#profile-pic {
+    min-width: none;
+    max-width: 400px;
+    min-height: none;
+    max-height: 600px;
+}
+
+#about-text {
+    font-size: 40px;
+    font-weight: 800;
+    padding: 15px;
 }
